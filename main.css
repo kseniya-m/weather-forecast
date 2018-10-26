@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+html {
+    height: 100%;
+}
+
+body:before,
+body:after {
+    content: "";
+    position: fixed;
+    background: #2B81AC;
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+
+body:before {
+    top: 0;
+}
+
+body:after {
+    bottom: 0;
+}
+
+body {
+    background-color: #2932e6;
+    border-left: 20px solid #2B81AC;
+    border-right: 20px solid #2B81AC;
+    min-height: 100%;
+    color: #FFF;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.header {
+    padding: 60px 0 20px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+
+
+.city {
+    list-style-type: none;
+    font-size: 0;
+    border: 2px solid #FFF;
+}
+
+.city:hover > li {
+    opacity: .6;
+}
+
+.city li {
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid #FFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.city > li:hover {
+    opacity: 1;
+}
+
+
+.city li:nth-child(1) {
+    background-color: deepskyblue;
+}
+
+.city li:nth-child(2) {
+    background-color: #b8cbff;
+}
+
+.city li:nth-child(3) {
+    background-color: deeppink;
+}
+
+.city li:nth-child(4) {
+    background-color: red;
+}
+
+.city li:nth-child(5) {
+background-color: orangered;
+}
+
+.city li:nth-child(6) {
+    background-color: #ffe563
+}
+
+.city li:nth-child(7) {
+    background-color: mediumseagreen;
+}
+
+.city li:nth-child(8) {
+    background-color: #53b5e6;
+}
+
+.city li:nth-child(9) {
+    background-color: hotpink;
+}
+
+.city li:nth-child(10) {
+    background-color: darkseagreen;
+}
+
+.city li:nth-child(11) {
+    background-color: mediumvioletred;
+}
+
+
+.oneblock {
+    width: 25%;
+}
+
+.doubleblock {
+    width: 50%;
+}
+
+.tripleblock {
+    width: 75%;
+}
+
+.quadrupleblock {
+    width: 100%;
+}
+
+.city-weather {
+    color: #FFF9FB;
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+.city-weather i {
+    font-size: 30px;
+    vertical-align: bottom;
+}
+
+.footer {
+    margin: 20px 0;
+    font-size: 17px;
+}
+
